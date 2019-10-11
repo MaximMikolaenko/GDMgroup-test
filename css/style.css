@@ -1,0 +1,122 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap&subset=latin-ext');
+
+
+.wrapper {
+	background: url('../img/dark-triangles.png') repeat;
+	width: 100vw;
+	height: 100vh;
+}
+
+.form-block {
+	position: absolute;
+	left: 50%;
+	margin-left: -140px;
+	top: 50%;
+	margin-top: -125px;
+	width: 279px;
+	height: 260px;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+}
+
+.back-form {
+	background-color: #FFFFFF;
+	opacity: 0.35;
+	width: 312px;
+	height: 295px;
+	position: absolute;
+	top: -17px;
+    left: -17px;
+	z-index: 1;
+}
+
+form {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	padding: 22px 0 10px;
+	background-color: #B3B3B3;
+	z-index: 10;
+	box-shadow: 0 0 20px #000;
+	font-family: 'Roboto', sans-serif;
+}
+
+input {
+    width: 180px;
+    height: 34px;
+    margin: 0 auto;
+    padding-left: 35px;
+	padding-right: 1px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 10px;
+}
+
+input::placeholder {
+	color: #000;
+	font-family: 'Roboto', sans-serif;
+} 
+
+.login {
+	margin-bottom: 10px;
+}
+
+.login, .password {
+	position: relative;
+	color: #575757;
+}
+
+.login i, .password i {
+    position: absolute;
+    top: 12px;
+    left: 42px;
+    font-size: 14px;
+    color: #101010;
+}
+
+.password i {
+	 transform: scale(-1, 1) rotate(135deg);
+}
+
+form legend {
+	text-transform: uppercase;
+	font-size: 18px;
+	margin-bottom: 20px;
+}
+
+form a {
+	font-size: 10px;
+	color: #000;
+	height: 29px;
+    line-height: 29px;
+}
+
+button {
+	width: 166px;
+	height: 40px;
+	border-radius: 4px;
+	background-color: rgba(255, 0, 15, 1);
+	color: rgba(255, 255, 255, 1);
+	font-size: 14px;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	border: none;
+	margin: 0 auto;
+	margin-top: 32px;
+	cursor: pointer;
+}
+
+.welcome {
+	font-family: 'Roboto', sans-serif;
+	color: #FFFFFF;
+	font-size: 18px;
+    position: absolute;
+    top: 50%;
+    margin-top: -11px;
+    left: 50%;
+    margin-left: -80px;
+}
